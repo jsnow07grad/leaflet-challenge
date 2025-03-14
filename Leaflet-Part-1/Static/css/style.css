@@ -1,0 +1,61 @@
+/* General body styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Title Styling */
+h1 {
+  margin: 20px 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Map container */
+#map {
+  height: 85vh;  /* Adjust height to fit most screens */
+  width: 90%;
+  margin: 0 auto;  /* Center the map horizontally */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Legend box */
+.info.legend {
+  background: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #555;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Legend color boxes */
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.9;
+}
+
+/* Tooltip Popup */
+.leaflet-popup-content {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Layer Control Panel */
+.leaflet-control-layers {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
